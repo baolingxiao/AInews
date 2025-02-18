@@ -8,7 +8,8 @@ const GlobeContainer = styled.div`
   width: 20px;
   height: 20px;
   position: relative;
-  margin-right: 0;
+  margin-right: 8px;
+  margin-left: 0;
   display: flex;
   align-items: center;
   justify-content: center;

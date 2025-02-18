@@ -8,17 +8,20 @@ const ClockContainer = styled.div`
   gap: 8px;
   font-size: 0.85rem;
   height: 20px;
+  min-width: 160px;
 `;
 
 const Label = styled.span`
   font-weight: 500;
   color: #666;
   min-width: 45px;
+  margin-right: 4px;
 `;
 
 const Time = styled.span`
   font-weight: 400;
   min-width: 65px;
+  margin-right: 4px;
 `;
 
 interface ClockProps {
